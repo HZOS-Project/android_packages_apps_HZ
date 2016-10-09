@@ -33,4 +33,10 @@
         android:title="@string/status_bar_clock_title"
         android:summary="@string/status_bar_clock_summary"
         android:fragment="com.hz.settings.fragments.Clock" />
+
+    <Preference
+        android:key="battery_bar_category"
+        android:title="@string/battery_bar_title"
+        android:summary="@string/battery_bar_summary"
+        android:fragment="com.hz.settings.fragments.BatteryBar" />
 </PreferenceScreen>
