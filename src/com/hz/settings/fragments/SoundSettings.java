@@ -1,10 +1,10 @@
-package com.nitrogen.settings.fragments;
+package com.hz.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.os.Bundle;
-import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
@@ -12,7 +12,7 @@ import android.provider.Settings.SettingNotFoundException;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class VolumeRockerSettings extends SettingsPreferenceFragment implements
+public class SoundSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
 
@@ -20,7 +20,7 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.nitrogen_settings_volume);
+        addPreferencesFromResource(R.xml.hz_settings_sound);
 
     }
 
@@ -32,6 +32,6 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.HZ_SETTINGS;
     }
 }
