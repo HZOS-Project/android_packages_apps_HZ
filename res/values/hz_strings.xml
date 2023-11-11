@@ -16,6 +16,7 @@
     <string name="hz_settings_title">HZ Settings</string>
 
     <!-- Categories -->
+    <string name="aosp_options_title">System settings</string>
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
@@ -44,4 +45,7 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!-- Summaries -->
+    <string name="aosp_options_summary">Stock options included with Android</string>
 </resources>
