@@ -48,4 +48,8 @@
 
     <!-- Summaries -->
     <string name="aosp_options_summary">Stock options included with Android</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
 </resources>
